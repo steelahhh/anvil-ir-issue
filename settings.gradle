@@ -1,0 +1,3 @@
+rootProject.name = "AnvilBehaviour"
+include ':app'
+include ':lib'
