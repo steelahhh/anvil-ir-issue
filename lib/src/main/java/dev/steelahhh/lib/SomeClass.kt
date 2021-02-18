@@ -17,8 +17,11 @@ class SomeClass @Inject constructor() {
      // val dummyChange = ""
 }
 
+// class SomeClassB @Inject constructor()
+
 class SomeAssistedClass @AssistedInject constructor(
     private val someClass: SomeClass,
+    // private val someClassB: SomeClassB,
     @Assisted val type: String,
 )
 
